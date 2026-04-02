@@ -77,7 +77,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ env.REGISTRY }}/${{ secrets.DOCKERHUB_USERNAME }}/notes-app:latest
+            ${{ env.REGISTRY }}/${{ vars.DOCKERHUB_USERNAME }}/notes-app:latest
             ${{ env.REGISTRY }}/${{ secrets.DOCKERHUB_USERNAME }}/notes-app:${{ github.sha }}
       
       - name: Build and push frontend
