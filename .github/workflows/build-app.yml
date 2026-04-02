@@ -9,7 +9,7 @@ jobs:
   
   call-reusable:
     environment: local
-    uses: ./.github/workflows/reusable.yml
+    uses: ./.github/workflows/resuable.yml
     with:
       branch: ${{ github.ref_name }}
     secrets:
