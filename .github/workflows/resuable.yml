@@ -59,6 +59,7 @@ jobs:
 
   build:
     needs: lint-and-test
+    environment: local
     runs-on: ubuntu-latest
     permissions:
       contents: read
