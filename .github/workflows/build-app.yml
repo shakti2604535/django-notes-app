@@ -8,7 +8,6 @@ on:
 jobs:
   
   call-reusable:
-    environment: local
     uses: ./.github/workflows/resuable.yml
     with:
       branch: ${{ github.ref_name }}
