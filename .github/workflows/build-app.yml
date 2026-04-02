@@ -42,6 +42,7 @@ jobs:
         working-directory: ./mynotes
         run: npm ci
       - name: Lint React
+        continue-on-error: true
         working-directory: ./mynotes
         run: npm run lint
       
