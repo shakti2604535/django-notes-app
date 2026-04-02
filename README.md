@@ -28,3 +28,5 @@ Install Nginx reverse proxy to make this application available
 
 `sudo apt-get update`
 `sudo apt install nginx`
+
+[![CI/CD Pipeline](https://github.com/shakti2604535/django-notes-app/actions/workflows/build-app.yml/badge.svg?branch=main)](https://github.com/shakti2604535/django-notes-app/actions/workflows/build-app.yml)
