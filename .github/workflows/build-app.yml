@@ -30,7 +30,7 @@ jobs:
       #   run: black --check .
       
       - name: Run Django tests
-        continue-error: true
+        continue-on-error: true
         run: python manage.py test
       
       - name: Set up Node
